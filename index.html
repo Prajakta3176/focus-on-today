@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Focus on today</title>
+    <link rel="shortcut icon" href="/resources/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h1>Focus on <span>Today</span></h1>
+
+    <div class="card">
+        <div class="topOfCard">
+            <h2>Today</h2>
+            <div class="sunImg">
+                <img class="sun" src="/resources/Sun.svg" alt="">
+            </div>
+        </div>
+        <p class="firstPara">Raise the bar by completing your goals!</p>
+        <div class="progressBox">
+            <div class="progressResult"><span></span></div>
+        </div>
+        <p class="alertMessage">Please set all the 3 goals!</p>
+       
+        <div class="inputList">
+           <div id="inputBox1" class="inputBox">
+             <div id="circle1" class="circle"><img class="check" src="/resources/check.svg" alt=""></div>
+             <input required  name="input1" id="inputText1" class="inputText" type="text" placeholder="Add new goal...">
+           </div>
+
+           <div id="inputBox2" class="inputBox">
+             <div id="circle2" class="circle"><img class="check" src="/resources/check.svg" alt=""></div>
+             <input required  name="input2" id="inputText2" class="inputText" type="text" placeholder="Add new goal...">
+            </div>
+
+           <div id="inputBox3" class="inputBox">
+             <div id="circle3" class="circle"><img class="check" src="/resources/check.svg" alt=""></div>
+             <input required  name="input3" id="inputText3" class="inputText" type="text" placeholder="Add new goal...">
+            </div>
+
+        </div>
+
+        <div class="buttons">
+        <!-- <button class="addNewGoal" type="button">+</button> -->
+        <button class="reset" type="reset">Reset</button>
+
+        </div>
+
+        <p class="endPara">“Move one step ahead, today!”</p>
+        <p class="copyright">Made with  ❤️ by Prajakta Mondhe</p>
+    </div>
+</body>
+</html>
