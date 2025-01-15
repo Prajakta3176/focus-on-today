@@ -5,6 +5,7 @@ const progressResult = document.querySelector('.progressResult')
 const progressSpanText = document.querySelector('.progressResult span')
 const progressMessage = document.querySelector('.firstPara')
 const inputList = document.querySelector('.inputList')
+// list of messages to be appear on screen when particular task is completed
 const messageList = [
    'Raise the bar by completing your goals!',
    'Well begun is half done!',
